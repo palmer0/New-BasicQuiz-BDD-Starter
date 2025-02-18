@@ -176,14 +176,18 @@ public class QuestionActivity extends AppCompatActivity {
 
             //Log.d(TAG, "answerCheated: " + answerCheated);
 
+            // TODO:
+            //  Modificar el codigo del siguiente "if" para que se cumplan estas condiciones:
+            //  Si el usuario ha visto la respuesta a la última pregunta en "Cheat",
+            //  desactivar todos los botones de la pantalla "Question"
+            //  Si el usuario ha visto la respuesta a cualquier otra pregunta,
+            //  llamar el metodo "onNextButtonClicked" para avanzar a la siguiente pregunta
+            //  utilizando el codigo que contiene el "if" ahora
+
             if (answerCheated) {
 
-                // TODO:
-                //  Si el usuario ha visto la respuesta a la última pregunta en "Cheat",
-                //  desactivar todos los botones de la pantalla "Question"
-                //  Si el usuario ha visto la respuesta a cualquier otra pregunta,
-                //  llamar el metodo "onNextButtonClicked" para avanzar a la siguiente pregunta,
-
+                nextButtonEnabled = true;
+                onNextButtonClicked();
             }
 
         }
