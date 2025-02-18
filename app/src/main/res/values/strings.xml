@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Basic Quiz</string>
+
+
+    <string name="question_screen_title">Question Screen</string>
+    <string name="cheat_screen_title">Cheat Screen</string>
+
+
+
+    <string name="stats_screen_title">Stats Screen</string>
+    <string name="total_questions_text">Total Questions</string>
+    <string name="correct_answers_text">Correct Answers</string>
+    <string name="restart_button_label">Restart Quiz</string>
+    <string name="exit_button_label">Exit App</string>
+
+
+
+    <string name="true_button_label">True</string>
+    <string name="false_button_label">False</string>
+    <string name="next_button_label">Next</string>
+    <string name="cheat_button_label">Cheat</string>
+    <string name="no_button_label">No</string>
+    <string name="yes_button_label">Yes</string>
+    <string name="stats_button_label">Stats</string>
+
+    <string name="warning_text">Are you sure?</string>
+    <string name="correct_text">Correct!</string>
+    <string name="incorrect_text">Incorrect!</string>
+    <string name="false_text">False</string>
+    <string name="true_text">True</string>
+
+    <string name="empty_text">\???</string>
+    <!--<string name="question_1">Question #1: True</string>-->
+
+    <string-array name="questions_array">
+        <item>Question #1: True</item>
+        <item>Question #2: False</item>
+        <item>Question #3: True</item>
+    </string-array>
+
+    <integer-array name="answers_array">
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+</resources>
