@@ -179,7 +179,7 @@ public class QuestionActivity extends AppCompatActivity {
             // TODO:
             //  Modificar el codigo del siguiente "if" para que se cumplan estas condiciones:
             //  Si el usuario ha visto la respuesta a la última pregunta en "Cheat",
-            //  desactivar todos los botones de la pantalla "Question"
+            //  desactivar todos los botones de la pantalla "Question" (excepto "Stats")
             //  Si el usuario ha visto la respuesta a cualquier otra pregunta,
             //  llamar el metodo "onNextButtonClicked" para avanzar a la siguiente pregunta
             //  utilizando el codigo que contiene el "if" ahora
